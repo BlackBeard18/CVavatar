@@ -1,0 +1,52 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 2px black;
+}
+h1 {
+
+    font-family: "roboto";
+    font-size: 48px;
+    text-align: center;  
+    text-decoration: underline;
+}
+h2 {
+   background-color: darkorange;
+   color: white;
+   font-family: "Quicksand";
+   font-size: 32px;
+   margin-left: 20px;
+   margin-right: 20px;
+   outline-color: red;
+   outline-style: solid;
+   outline-width: 2px;
+   padding-left: 60px;
+}
+ol {
+    border-left: 3px solid;
+    margin-left: 50px; 
+    padding-left: 35px;
+}
+ul {
+    list-style-type: square;
+    text-align: right;
+}
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin-left: 80px;
+    margin-right: 80px; 
+}
+table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
